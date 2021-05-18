@@ -5,8 +5,8 @@ let random = Math.floor(Math.random() * choices.length);
 console.log(random, choices[random]);
 
 let wonMessage = "You Won!";
-let lossMessage = "You Loss!";
-let drawMessage = "It's Draw!";
+let lossMessage = "You Lost!";
+let drawMessage = "It's a Draw!";
 let winColor = "green";
 let lossColor = "red";
 let drawColor = "gray";
